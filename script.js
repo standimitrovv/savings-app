@@ -23,10 +23,11 @@ const floorInputValues = function () {
 // Render the outcome to the UI
 const renderOutcomeValue = function (type, amount) {
   const markup = `
-            <li class="outcome">
+            <li class="outcome"> 
               <span class="outcome__type">${type}</span>
               <span class="outcome__size">${amount}lv.</span>
-            </li>`;
+            </li>
+            `;
   ul.insertAdjacentHTML("afterend", markup);
 };
 
